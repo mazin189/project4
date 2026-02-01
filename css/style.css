@@ -1,0 +1,125 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+background-color: #FAFAFA !important;
+}
+.threedivs{
+border: 1px solid #D9D9D9;
+width: 335px;
+height: 450px;
+overflow: hidden;
+transition: 0.2s;
+background-color: #FFFFFF;
+}
+.threedivs:hover{
+border: 2px solid #4CAF50;
+transform: scale(1.03);
+box-shadow: 0 3px 15px 0 rgb(161, 161, 161);
+}
+.button-a{
+text-decoration: none;
+color: inherit;
+}
+.form-div{
+width: 1100px;
+margin: auto;
+padding: 30px;
+border-radius: 8px;
+background-color: #eeeeee;
+}
+.form-div2{
+padding-top: 15px;
+}
+.shoppingcart{
+cursor: pointer;
+}
+.fa-heart{
+cursor: pointer;
+}
+.carts-products a{
+display: block;
+text-decoration: none;
+color: black;
+text-align: center;
+}
+.carts-products{
+position: absolute;
+top: 56px;
+right: 0.1px;
+border: 1px solid #ddd;
+background-color: #ffffff;
+padding: 14px 0px;
+box-shadow: 0 0 6px rgba(0,0,0,0.3);
+}
+.icon-span-div i , .icon-span-div span{
+color: #1967d2 !important;
+}
+.carts-products{
+display: none;
+}
+.div-cartsproducts{
+border: 1px solid rgb(15, 133, 172);
+width: 500px;
+height: 200px;
+transition: 0.2s;
+border-radius: 5px;
+display: flex;
+align-items: center;
+}
+.div-cartsproducts:hover{
+border: 2px solid rgb(39, 174, 12);
+transform: scale(1.03);
+box-shadow: 0 3px 15px 0 rgb(161, 161, 161);
+}
+.div-cartsproducts img{
+width: 135px; 
+}
+.rectangle-div{
+width: 23px; 
+height: 28px; 
+border: 1px solid grey; 
+border-radius: 3px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.line{
+background-color: rgb(39, 174, 12);
+width: 15%;
+height: 3px;
+margin: auto;
+transition: 0.2s;
+}
+.card{
+transition: 0.2s;
+overflow: hidden;
+}
+.card:hover{
+border: 2px solid rgb(39, 174, 12);
+transform: scale(1.02);
+}
+.LINE-HOVER:hover .line{
+width: 20%;
+}
+.addcart-button{
+background-color: #4CAF50 !important;
+}
+.logout-button{
+background-color: #4CAF50 !important;
+}
+.logout-button:hover{
+background-color: #43A047 !important;
+}
+.search:hover{
+background-color: #43A047 !important;
+}
+.rectangle-div:hover{
+background-color: rgb(152, 152, 152);
+}
+.rectangle-div{
+transition: 0.2s;
+cursor: pointer;
+}

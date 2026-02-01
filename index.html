@@ -1,0 +1,174 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Online Restaurant</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/all.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg" style="background-color: #ffffff; height: 70px;">
+  <div class="container-fluid">
+    <div class="ms-5">
+        <img src="images/logo.png" alt="#" height="50" width="200" style="object-fit: cover;">
+    </div>
+      <form class="d-flex ms-auto links" role="search">
+        <button class="btn btn-outline-info me-2" type="submit"><a href="login.html" class="button-a">Login</a></button>
+        <button class="btn btn-outline-success" type="submit"><a href="register.html" class="button-a">Register</a></button>
+        </form>
+        <div class="userinfo d-flex align-items-center d-none">
+          <span>Hello, <span class="userdata"></span></span>
+          <div class="shoppingcart d-inline ms-4">
+            <div class="icon-span-div">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="number">0</span>
+          </div>
+          <div class="carts-products" style="background-color: rgba(0 , 0 , 0 , 0.01);">
+          <div></div>
+          <hr style="margin-top: 0;">
+          <a href="cartsproducts.html">View All Products</a>
+          </div>
+          </div>
+        <button class="btn text-white ms-4 logout-button" type="button">Log out</button>
+        </div>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
+  <div class="container-fluid" style="margin-top: 25px;">
+    <form class="d-flex justify-content-center" role="search">
+        <select class="form-select me-4 searchType" aria-label="Default select example" style="width: 16.7%; background-color: #F5F5F5; border: 1px solid #D9D9D9;">
+      <option value="name" selected>Search by Product Name</option>
+      <option value="category">Search by Category</option>
+        </select>
+      <input class="form-control me-4 inputsearch" type="search" placeholder="Search" aria-label="Search" style="width: 40%; background-color: #F5F5F5; border: 1px solid #D9D9D9;">
+      <button class="btn text-white search" type="submit" style="width: 11%; background-color: #4CAF50;">Search</button>
+    </form>
+  </div>
+
+
+
+
+
+
+
+
+<div class="container">
+  <div class="products d-flex flex-wrap row-gap-5 justify-content-center text-center gap-5" style="margin-top: 65px;">
+<!-- <div class="threedivs rounded-3">
+<img src="images/burger.jpeg" alt="#" class="w-100" style="height: 60%;">
+<h5 class="mt-2">Golden Watch</h5>
+<p>Price: $400</p>
+<p>Category: Watches</p>
+<i class="fas fa-heart me-2"></i>
+<button class="btn text-white addcart-button">Add to Cart</button>
+</div> -->
+<!-- <div class="threedivs rounded-3">
+<img src="images/download (21).png" alt="#" class="w-100" style="height: 60%;">
+<h5 class="mt-2">headphones</h5>
+<p>Price: $100</p>
+<p>Category: head</p>
+<i class="fas fa-heart me-2"></i>
+<button class="btn text-white bg-primary addcart-button">Add to Cart</button>
+</div>
+<div class="threedivs rounded-3">
+<img src="images/x.jpeg" alt="#" class="w-100" style="height: 60%;">
+<h5 class="mt-2">car</h5>
+<p>Price: $700</p>
+<p>Category: bmw</p>
+<i class="fas fa-heart me-2"></i>
+<button class="btn text-white bg-primary addcart-button">Add to Cart</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="threedivs rounded-3">
+<img src="images/awe.jpeg" alt="#" class="w-100" style="height: 60%;">
+<h5 class="mt-2">laptop</h5>
+<p>Price: $1400</p>
+<p>Category: pc</p>
+<i class="fas fa-heart me-2"></i>
+<button class="btn text-white bg-primary addcart-button">Add to Cart</button>
+</div>
+<div class="threedivs rounded-3">
+<img src="images/download (21).png" alt="#" class="w-100" style="height: 60%;">
+<h5 class="mt-2">mobile</h5>
+<p>Price: $1600</p>
+<p>Category: phone</p>
+<i class="fas fa-heart me-2"></i>
+<button class="btn text-white bg-primary addcart-button">Add to Cart</button>
+</div>
+<div class="threedivs rounded-3">
+<img src="images/x.jpeg" alt="#" class="w-100" style="height: 60%;">
+<h5 class="mt-2">fridge</h5>
+<p>Price: $1750</p>
+<p>Category: ice</p>
+<i class="fas fa-heart me-2"></i>
+<button class="btn text-white bg-primary addcart-button">Add to Cart</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="threedivs rounded-3">
+<img src="images/awe.jpeg" alt="#" class="w-100" style="height: 60%;">
+<h5 class="mt-2">table</h5>
+<p>Price: $2999</p>
+<p>Category: test</p>
+<i class="fas fa-heart me-2"></i>
+<button class="btn text-white bg-primary addcart-button">Add to Cart</button>
+</div>
+<div class="threedivs rounded-3">
+<img src="images/download (21).png" alt="#" class="w-100" style="height: 60%;">
+<h5 class="mt-2">computer</h5>
+<p>Price: $399</p>
+<p>Category: noidea</p>
+<i class="fas fa-heart me-2"></i>
+<button class="btn text-white bg-primary addcart-button">Add to Cart</button>
+</div>
+<div class="threedivs rounded-3">
+<img src="images/x.jpeg" alt="#" class="w-100" style="height: 60%;">
+<h5 class="mt-2">chair</h5>
+<p>Price: $120</p>
+<p>Category: ok</p>
+<i class="fas fa-heart me-2"></i>
+<button class="btn text-white bg-primary addcart-button">Add to Cart</button>
+</div> -->
+</div>
+</div>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script> 
+</body>
+</html>
